@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Клонируем репозиторий
-                git branch: 'main', url: 'https://github.com/egordmitriev-creator/helloWorld'
+                git branch: 'main', url: 'https://github.com/tony-19-dm/helloworld.git'
             }
         }
 
